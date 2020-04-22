@@ -15,8 +15,9 @@ self.end_with? ("!")
   end
 
   def count_sentences
-   
+   #complex_string = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
     #  self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
+    binding.pry
 self.split(/\.|\?|\!/).size
   end
 end
