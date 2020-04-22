@@ -1,7 +1,7 @@
 require 'pry'
 
 class String
-
+binding.pry
   def sentence?
     self.end_with(".")
   end
