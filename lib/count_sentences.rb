@@ -17,6 +17,6 @@ self.end_with? ("!")
   def count_sentences
     binding.pry
     #  self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
-self.split(".","?","!").size
+self.split(/\.|\?|\!/).size
   end
 end
